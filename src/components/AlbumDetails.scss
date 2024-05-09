@@ -1,0 +1,52 @@
+.album-details-container {
+  margin: 20px auto;
+  max-width: 800px; 
+}
+.search-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px; 
+  margin-bottom: 20px; 
+}
+.album-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.song-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.song-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.song-item:hover {
+  transform: translateY(-5px);
+}
+
+.song-title {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.song-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.song-link:hover {
+  color: #0056b3;
+}
